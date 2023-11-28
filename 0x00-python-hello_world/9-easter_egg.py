@@ -1,4 +1,2 @@
 #!/usr/bin/python3
-str1 = "is better than"
-str2 = "If the implementation is"
-print(f"The Zen of Python, by Tim Peters \n \n Beautiful {str1} ugly.\n Explicit {str1} implicit.\n Simple {str1} complex.\n Complex {str1} complicated.\n Flat {str1} nested.\nSparse {str1} dense.\n Readability counts.\n Special cases aren't special enough to break the rules.\n Although practicality beats purity.\n Errors should never pass silently.\n Unless explicitly silenced.\n In the face of ambiguity, refuse the temptation to guess.\n There should be one-- and preferably only one --obvious way to do it.\n Although that way may not be obvious at first unless you're Dutch.\n Now is better than never.\n Although never is often better than *right* now.\n {str2} hard to explain, it's a bad idea.\n {str2} easy to explain, it may be a good idea.\n Namespaces are one honking great idea -- let's do more of those!\n")
+import this
