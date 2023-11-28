@@ -1,4 +1,2 @@
 #!/bin/bash
-PYFILE=$PYFILE
-OUTPUT_FILE="${PYFILEc"
 python3 -m compileall "my_main.pyc"
