@@ -7,4 +7,3 @@ def multiple_returns(sentence):
     else:
         senLen = 0
     return (senLen, sentence if not sentence else sentence[:1])
-
