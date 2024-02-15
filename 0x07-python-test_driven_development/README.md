@@ -1,0 +1,1 @@
+This folder cotains 0x07 - python test development questions answers. In this module I learned how to use the python testing system. Especially the inbuilt unittest. THese answers represents my understanding of this. 
