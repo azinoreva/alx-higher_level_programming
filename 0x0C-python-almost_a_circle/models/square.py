@@ -15,24 +15,20 @@ class Square(Rectangle):
             y (int): The y coordinate of the new Square.
             id (int): The identity of the new Square.
         """
-        super().__init__(size, size, x, y,id)
-        
-    def __str__(self):
-        """Return the str() and print() representation of a Square."""
-        return "[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y, self.width)
-    
+        super().__init__(size, size, x, y, id)
+
     @property
-    def size (self):
-        """Gets / sets the size of the Square."""
+    def size(self):
+        """Get/set the size of the Square."""
         return self.width
-    
+
     @size.setter
     def size(self, value):
         self.width = value
         self.height = value
-   
+
     def update(self, *args, **kwargs):
-        """Updates the Square.
+        """Update the Square.
 
         Args:
             *args (ints): New attribute values.
@@ -73,10 +69,15 @@ class Square(Rectangle):
                     self.y = v
 
     def to_dictionary(self):
-        myDictionary = {
+        """Return the dictionary representation of the Square."""
+        return {
             "id": self.id,
-            "size": self.size,
-            "x":self.x,
-            "y":self.y
-            }
-        return myDictionary    
+            "size": self.width,
+            "x": self.x,
+            "y": self.y
+        }
+
+    def __str__(self):
+        """Return the print() and str() representation of a Square."""
+        return "[Square] ({}) {}/{} - {}".format(self.id, self.x, self.y,
+                                                 self.width)
